@@ -1,0 +1,29 @@
+header {
+    background-color: rgb(243, 243, 243);
+    border-bottom: 1px solid #e72929;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+a {
+    color: #af1313;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background: #e72929;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
