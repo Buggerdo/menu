@@ -22,7 +22,14 @@ export class AppComponent {
       name: 'Breakfast Burrito',
       description: 'Scrambled eggs, bacon, and cheese wrapped in a flour tortilla',
       price: 8.99,
-      image: '/assets/images/eggs-benedict.jpg'
+      image: '/assets/images/Breakfast-Burrito.jpg'
+    },
+    {
+      category: 'Dinner',
+      name: 'Steak',
+      description: 'Grilled steak with a side of potatoes and vegetables',
+      price: 20.99,
+      image: '/assets/images/steak.jpg'
     },
   ];
 }

@@ -1,5 +1,9 @@
 .shop{
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: center;
   grid-template-columns: repeat(4, 150px);
   gap: 30px;
   justify-content: center;
@@ -9,6 +13,7 @@
 .item {
   border: 3px solid #212529;
   border-radius: 8px;
+  width: 300px;
 }
 
 .item img{
@@ -31,4 +36,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.container {
+  position: relative;
+  top: 60px;
 }
